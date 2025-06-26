@@ -20,6 +20,7 @@ Kullanıcı sorusu → vektörleştirme → ChromaDB’de en yakın yönetmelik 
 ---
 
 ## Dosya Yapısı
+btu-asistan
 │
 ├─ bot.py # Telegram botu & zincir çağrısı
 ├─ extract_pdf.py # PDF → ham metin için 
