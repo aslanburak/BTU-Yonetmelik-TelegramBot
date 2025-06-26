@@ -1,7 +1,7 @@
 # 📚 BTÜ Yapay Zeka Destekli Yönetmelik Botu
 
 **Yapay zekâ destekli Telegram danışmanı – Bursa Teknik Üniversitesi’nde yönetmelik sorularına saniyeler içinde, madde referanslı olarak yanıtlar.**
-<img src="https://github.com/aslanburak/BTU-Yonetmelik-TelegramBot/blob/main/btu-asistan/images/telegram1.jpg" width="800px" height="auto">
+<img src="https://github.com/aslanburak/BTU-Yonetmelik-TelegramBot/blob/main/btu-asistan/images/telegram1.jpg" width="600px" height="auto">
 ---
 
 ## Genel Bakış
