@@ -20,6 +20,7 @@ Kullanıcı sorusu → vektörleştirme → ChromaDB’de en yakın yönetmelik 
 ---
 
 ## Dosya Yapısı
+```
 btu-asistan
 │
 ├─ bot.py # Telegram botu & zincir çağrısı
@@ -28,6 +29,7 @@ btu-asistan
 ├─ embed_chunks.py # Embedding + Chroma yükleme 
 ├─ chroma_store/ # Kalıcı vektör koleksiyonu 
 └─ pdfs/ # Kaynak yönetmelik PDF’leri
+```
 
 
 ---
