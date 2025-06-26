@@ -6,7 +6,7 @@
 
 ## Genel Bakış
 Bu proje, BTÜ lisans/lisansüstü yönetmeliklerini semantik vektör uzayına aktararak Telegram üzerinden **anlık ve kaynak gösteren** danışmanlık sağlar.  
-Kullanıcı sorusu → vektörleştirme → ChromaDB’de en yakın yönetmelik parçaları → GPT-4 tabanlı yanıt (+ dosya, sayfa, madde).
+Kullanıcı sorusu → vektörleştirme → ChromaDB’de en yakın yönetmelik parçaları → GPT-4 tabanlı yanıt (Kaynakça: dosya bilgisi , sayfa bilgisi, madde ve fıkra bilgisi).
 
 ---
 
@@ -45,6 +45,7 @@ pip install -r requirements.txt
 .env dosyanızı oluşturun:
 TELEGRAM_TOKEN=123456:ABC...
 OPENAI_API_KEY=sk-...
+EMB_MODEL=text-embedding-3-large
 
 # 1 | PDF'leri metne dönüştür
 python extract_pdf.py pdfs/
