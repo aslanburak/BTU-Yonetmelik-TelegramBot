@@ -1,0 +1,19 @@
+# requirements.txt — BTÜ Yönetmelik Botu
+# Bu sürümler Python 3.12 ortamında test edilmiştir.
+# Yalnızca projede doğrudan kullanılan kütüphaneler listelenmiştir.
+
+langchain==0.3.25
+langchain-openai==0.3.23
+langchain-chroma==0.2.4          # Chroma entegrasyon sarmalayıcısı
+chromadb==1.0.12                  # Yerel vektör veritabanı
+
+python-telegram-bot==21.11.1      # Telegram arayüzü
+python-dotenv==1.0.1              # .env dosyası okuma
+
+pdfplumber==0.11.7                # PDF metin çıkarma
+pytesseract==0.3.13               # OCR fallback
+Pillow==11.1.0                    # pytesseract bağımlılığı
+
+openai==1.86.0                    # GPT-4 ve embedding API çağrıları
+tiktoken==0.9.0                   # Token sayacı (chunk kontrolü)
+tqdm==4.67.1                      # İlerleme çubukları
